@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import "./index.css";
 const projects = [
   {
     title: "Enterprise Analytics Dashboard",
@@ -19,7 +19,6 @@ const projects = [
     tech: ["React", "DnD"],
   },
 ];
-
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 text-blue-100">
@@ -32,7 +31,6 @@ export default function App() {
           >
             Manjeet Singh
           </motion.h1>
-
           <p className="text-blue-200 mb-4">
             Senior Frontend Engineer | React | Angular | 11+ Years
           </p>
