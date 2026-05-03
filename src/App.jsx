@@ -112,9 +112,9 @@ export default function App() {
 
         <motion.div style={styles.heroRight}>
           <motion.img
-            src="/profile.png"
+            src="./assets/Manjeet.png"
             style={styles.image}
-            animate={{ y: [0, -8, 0] }}
+            animate={{ y: [0, 10, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
           />
         </motion.div>
