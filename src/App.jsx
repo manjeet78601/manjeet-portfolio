@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import profile from "./assets/Manjeet.png";
 
 const projects = [
   {
@@ -112,7 +113,7 @@ export default function App() {
 
         <motion.div style={styles.heroRight}>
           <motion.img
-            src="./assets/Manjeet.png"
+            src={profile}
             style={styles.image}
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
