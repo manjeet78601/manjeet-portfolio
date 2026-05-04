@@ -106,7 +106,16 @@ export default function App() {
           <p style={styles.meta}>📞 +91-8860285276 • ✉️ manjeetpathania09@gmail.com</p>
 
           <div style={styles.ctaRow}>
-            <button style={styles.primaryBtn}>Hire Me</button>
+            {/* <button style={styles.primaryBtn}>Hire Me</button> */}
+<button
+  style={styles.primaryBtn}
+  onClick={() =>
+    (window.location.href ="mailto:manjeetpathania09@gmail.com?subject=Hiring Inquiry&body=Hi Manjeet, I would like to discuss an opportunity with you.")
+  }>
+  Hire Me
+</button>
+
+
             <a href="/ManjeetPortfoliorsume.pdf" download style={styles.secondaryBtn}>Download Resume</a>
           </div>
         </motion.div>
