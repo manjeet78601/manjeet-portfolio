@@ -107,7 +107,7 @@ export default function App() {
 
           <div style={styles.ctaRow}>
             <button style={styles.primaryBtn}>Hire Me</button>
-            <a href="/resume.pdf" download style={styles.secondaryBtn}>Download Resume</a>
+            <a href="/ManjeetPortfoliorsume.pdf" download style={styles.secondaryBtn}>Download Resume</a>
           </div>
         </motion.div>
 
